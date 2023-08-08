@@ -6,7 +6,7 @@ To add this package to your R environment, download the most recent ZIP file and
 
 1. install.packages("devtools")
 2. library(devtools)
-3. devtools::install_local("file path to zip")
+3. devtools::install_local("file path to zip", repos = NULL, type = "source")
 
 
 The package will now be installed into R and can be called as normal: library(vocalZLA)
